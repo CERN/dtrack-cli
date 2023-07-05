@@ -20,7 +20,9 @@ openApiGenerate {
         generateBashCompletion : 'true'
 		,generateZshCompletion : 'true'
 		,hostEnvironmentVariable : "DTRACK_HOST"
-		,scriptName : "dtrack-cli"
+		,apiKeyAuthEnvironmentVariable: "DTRACK_APIKEY"
+		,basicAuthEnvironmentVariable: "DTRACK_CREDS"
+		,scriptName : "dtrack"
     ]
 }
 
