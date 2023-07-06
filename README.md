@@ -5,7 +5,7 @@ Dependency Track Bash / ZSH client
 
 An OpenApi codegen-generated client for [Dependency Track](https://dependencytrack.org/) in Bash / ZSH.
 
-# How to use
+## How to use
 
 ```bash
 export DTRACK_HOST=https://your.dtrack.host
@@ -13,7 +13,7 @@ export DTRACK_APIKEY=yourApiKey
 dtrack getVersion
 ```
 
-# How to develop
+## How to develop
 
 Use the provided Gradle wrapper to generate the code :
 
@@ -31,7 +31,7 @@ and run it :
 docker run -it dtrack-cli
 ```
 
-# Development Roadmap
+## Development Roadmap
 
 * Integrate image building in Gradle with the JIB plugin
 * Customize container image to add extra tooling (e.g. JQ)
