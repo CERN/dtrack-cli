@@ -1,3 +1,5 @@
+![Static Badge](https://img.shields.io/badge/DTrack_API_version-v4.6.3-blue)
+
 Dependency Track Bash / ZSH client
 ==================================
 
